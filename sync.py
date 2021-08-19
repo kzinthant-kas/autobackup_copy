@@ -297,7 +297,7 @@ def main():
             check_path(dst_full_path)
 
         # =================cmd to run=================
-        rclone_cmd = "./program/rclone --config {} sync ".format(config_file)
+        rclone_cmd = "rclone --config {} sync ".format(config_file)
         if args.dry_run:
             rclone_cmd += "--dry-run "
         # --fast-list is default adopted in the latest rclone
