@@ -1,1 +1,1 @@
-worker: ./start.sh
+worker: python3 schedule.py
